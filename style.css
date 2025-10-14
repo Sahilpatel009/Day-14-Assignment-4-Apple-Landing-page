@@ -1,194 +1,260 @@
-@font-face {
-    font-family: seb;
-    src: url(./sf-pro-text_regular.woff2)
-}
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: seb;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: seb;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
 html,
 body {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #nav {
-    display: flex;
-    background-color: #222020;
-    height: 32px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 26px;
+  display: flex;
+  background-color: #222020;
+  height: 44px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+  color: white;
 }
 
-#nav h4 {
-    color: white;
-    font-weight: 0px;
-    font-size: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+#nav a {
+  color: #f3ecec;
+  font-weight: px;
+  text-decoration: none;
+  font-size: 11px;
 }
 
 #nav i {
-    font-size: 11px;
-    color: white;
+  color: white;
 }
 
-/*-------------------------------- iPhone 17 Pro_Container ----------------------------------*/
+/*------------------------------------------ iPhone 17 Pro_Container -----------------------------------------*/
+
 #iPhone_17_Pro_Container {
-    text-align: center;
-    height: 93%;
-    width: 100%;
-    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
-    padding-top: 30px;
-    background-size: cover;
-    background-position: center;
+  text-align: center;
+  height: 93%;
+  width: 100%;
+  background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+  padding-top: 40px;
+  background-size: cover;
+  background-position: center;
 }
 
 #iPhone_17_Pro_Container h1 {
-    color: white;
-    font-size: 38px;
-    font-weight: 600px;
+  color: white;
+  font-size: 53px;
+  font-weight: 600px;
 }
 
 #iPhone_17_Pro_Container h5 {
-    color: white;
-    font-size: 18px;
-    font-weight: 200;
-    padding-top: 5px;
+  color: white;
+  font-size: 25px;
+  font-weight: 200;
+  padding-top: 5px;
 }
 
 #button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    padding: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 17px;
 }
 
 #iPhone_17_Pro_Container #button #b2 :hover {
-    background-color: #0077ED;
+  background-color: #0077ed;
 }
 
 #iPhone_17_Pro_Container #button #b1 {
-    background-color: #0077ED;
-    color: white;
-    border-radius: 20px;
-    padding: 8px 14px;
-    border: none;
+  background-color: #0077ed;
+  color: white;
+  border-radius: 20px;
+  padding: 11px 21px;
+  border: 1px solid #0077ed;
+  font-size: 17px;
 }
 
 #iPhone_17_Pro_Container #button #b2 {
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    padding: 8px 14px;
-    border: 2px solid #0077ED;
+  background-color: black;
+  color: #0077ed;
+  border-radius: 20px;
+  padding: 11px 21px;
+  border: 1px solid #0077ed;
+  font-size: 17px;
 }
 
-/*-------------------------------- iPhone 17 Air_Container ----------------------------------*/
-#iphone17aircontainer {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    padding-top: 30px;
-    width: 100%;
-    height: 90%;
-    background-image: url(./iphoneAir.jpg);
-    background-size: cover;
-    background-position: center;
+/*--------------------------------------------- iPhone 17 Air_Container ---------------------------------------------*/
+
+#iphone17_aircontainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  height: 90%;
+  background-image: url(./iphoneAir.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-#iphone17aircontainer h1 {
-    font-size: 38px;
-    color: #1D1D1F;
-    font-weight: 600px;
+#iphone17_aircontainer h1 {
+  font-size: 56px;
+  color: #1d1d1f;
+  font-weight: 600px;
+  padding-top: 20px;
 }
 
-#iphone17aircontainer h5 {
-    color: #1D1D1F;
-    font-size: 18px;
-    font-weight: 300;
-    padding-top: 5px;
+#iphone17_aircontainer h5 {
+  color: #1d1d1f;
+  font-size: 25px;
+  font-weight: 200;
+  padding-top: 5px;
 }
 
 .gb1 {
-    background-color: #0077ED;
-    color: white;
-    border-radius: 20px;
-    padding: 8px 14px;
-    border: none;
+  background-color: #0077ed;
+  color: white;
+  border: 1px solid #0077ed;
+  border-radius: 20px;
+  padding: 11px 21px;
+  font-size: 17px;
 }
 
 .gb2 {
-    background-color: white;
-    color: #0077ED;
-    border-radius: 20px;
-    padding: 8px 14px;
-    border: 2px solid #0077ED;
+  background-color: white;
+  color: #0077ed;
+  border-radius: 20px;
+  padding: 11px 21px;
+  border: 1px solid #0077ed;
+  font-size: 17px;
 }
 
-/*-------------------------------- iPhone 17_Container ----------------------------------*/
+/*----------------------------------------------- iPhone 17_Container -------------------------------------------*/
+
 #iphone_17_container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    padding-top: 30px;
-    width: 100%;
-    height: 90%;
-    background-image: url(./iphone17);
-    background-size: cover;
-    background-position: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  height: 90%;
+  background-image: url(./iphone17);
+  background-size: cover;
+  background-position: center;
 }
 
 #iphone_17_container h1 {
-    font-size: 38px;
-    color: #1D1D1F;
-    font-weight: 600px;
+  font-size: 56px;
+  color: #1d1d1f;
+  font-weight: 600px;
+  padding-top: 20px;
 }
 
 #iphone_17_container h5 {
-    color: #1D1D1F;
-    font-size: 18px;
-    font-weight: 300;
-    padding-top: 5px;
+  color: #1d1d1f;
+  font-size: 28px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
-#main_container {
-    display: flex;
-    height: 95%;
-    width: 100%;
-    gap: 10px;
+/*---------------------------------------------- Icloud-Games-Main_Container -----------------------------------------------------*/
+
+#icloud-games-main_container {
+  display: flex;
+  height: 95%;
+  width: 100%;
+  gap: 10px;
 }
+.gb1 {
+  background-color: #0077ed;
+  color: white;
+  border: 1px solid #0077ed;
+  border-radius: 20px;
+  padding: 11px 21px;
+  font-size: 17px;
+}
+
+.gb2 {
+  background-color: white;
+  color: #0077ed;
+  border-radius: 20px;
+  padding: 11px 21px;
+  border: 1px solid #0077ed;
+  font-size: 17px;
+}
+
+
+/*---------------------------------------------- icloud_Container -----------------------------------------------------*/
 
 #icloud_container {
-    height: 95%;
-    width: 50%;
-    background-image: url(./icloud+);
-    background-size: cover;
-    background-position: center;
+  height: 95%;
+  width: 50%;
+  background-image: url(./apple_watch_series_1.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 40px;
+}
+#icloud_container h1{
+    font-size: 35px;
+  color: #000000;
+  font-weight: 200px;
+  padding-top: 20px;
 
 }
+#icloud_container h5 {
+  color: #1d1d1f;
+  font-size: 23px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+/*--------------------------------------------- Games_Container -----------------------------------------------------*/
 
 #games_container {
-    height: 95%;
-    width: 50%;
-    background-image: url(./games);
-    background-size: cover;
-    background-position: center;
+  height: 95%;
+  width: 50%;
+  background-image: url(./airpodspro_3.jpg);
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  padding-top: 40px;
+}
+#games_container h1{
+    font-size: 35px;
+  color: #000000;
+  font-weight: 200px;
+  padding-top: 20px;
 
 }
-#foter{
-    background-color: #222020;
-    color: white;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 30px;
-    font-size: 15px;
+#games_container h5 {
+  color: #1d1d1f;
+  font-size: 23px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+/*---------------------------------------------------- Footer-- -----------------------------------------------------*/
+
+#foter {
+  background-color: #222020;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
 }
