@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: seb;
+  /* font-family: seb; */
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
@@ -174,22 +174,22 @@ body {
   width: 100%;
   gap: 10px;
 }
-.gb1 {
+.icloud-games-main_container-gb1 {
   background-color: #0077ed;
   color: white;
   border: 1px solid #0077ed;
   border-radius: 20px;
-  padding: 11px 21px;
-  font-size: 17px;
+  padding: 8px 15px;
+  font-size: 14px;
 }
 
-.gb2 {
+.icloud-games-main_container-gb2 {
   background-color: white;
   color: #0077ed;
   border-radius: 20px;
-  padding: 11px 21px;
+  padding: 8px 15px;
   border: 1px solid #0077ed;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 
@@ -213,7 +213,7 @@ body {
 }
 #icloud_container h5 {
   color: #1d1d1f;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 200;
   padding-top: 5px;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
@@ -239,7 +239,87 @@ body {
 }
 #games_container h5 {
   color: #1d1d1f;
-  font-size: 23px;
+  font-size: 21px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+/*---------------------------------------------- MacbookAir-iPadAir-Main_Container -----------------------------------------------------*/
+
+#macbookAir-ipadAir-main_container {
+  display: flex;
+  height: 95%;
+  width: 100%;
+  gap: 10px;
+}
+.macbookAir-ipadAir-main_container-gb1{
+  background-color: #0077ed;
+  color: white;
+  border: 1px solid #0077ed;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.macbookAir-ipadAir-main_container-gb2 {
+  background-color: white;
+  color: #0077ed;
+  border-radius: 20px;
+  padding: 8px 15px;
+  border: 1px solid #0077ed;
+  font-size: 14px;
+}
+
+
+/*---------------------------------------------- MacbookAir_Container -----------------------------------------------------*/
+
+#macbookAir_container {
+  height: 95%;
+  width: 50%;
+  background-image: url(./macbook_air.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 40px;
+}
+#macbookAir_container h1{
+    font-size: 35px;
+  color: #000000;
+  font-weight: 200px;
+  padding-top: 20px;
+
+}
+#macbookAir_container h5 {
+  color: #1d1d1f;
+  font-size: 21px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+/*--------------------------------------------- iPadAir_Container -----------------------------------------------------*/
+
+#ipadAir_container {
+  height: 95%;
+  width: 50%;
+  background-image: url(./ipad_air_.jpg);
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  padding-top: 40px;
+}
+#ipadAir_container h1{
+    font-size: 35px;
+  color: #000000;
+  font-weight: 200px;
+  padding-top: 20px;
+
+}
+#ipadAir_container h5 {
+  color: #1d1d1f;
+  font-size: 21px;
   font-weight: 200;
   padding-top: 5px;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
