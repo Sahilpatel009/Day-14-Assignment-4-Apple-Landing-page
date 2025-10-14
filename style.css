@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: seb; */
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
@@ -26,7 +25,7 @@ body {
 
 #nav a {
   color: #f3ecec;
-  font-weight: px;
+  /* font-weight: px; */
   text-decoration: none;
   font-size: 11px;
 }
@@ -68,10 +67,6 @@ body {
   padding: 17px;
 }
 
-#iPhone_17_Pro_Container #button #b2 :hover {
-  background-color: #0077ed;
-}
-
 #iPhone_17_Pro_Container #button #b1 {
   background-color: #0077ed;
   color: white;
@@ -88,6 +83,12 @@ body {
   padding: 11px 21px;
   border: 1px solid #0077ed;
   font-size: 17px;
+}
+
+#iPhone_17_Pro_Container #button #b2:hover {
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
 }
 
 /*--------------------------------------------- iPhone 17 Air_Container ---------------------------------------------*/
@@ -136,11 +137,17 @@ body {
   font-size: 17px;
 }
 
+.gb2:hover {
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+
 /*----------------------------------------------- iPhone 17_Container -------------------------------------------*/
 
 #iphone_17_container {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   text-align: center;
   padding-top: 30px;
   width: 100%;
@@ -166,15 +173,16 @@ body {
     "Arial", sans-serif;
 }
 
-/*---------------------------------------------- Icloud-Games-Main_Container -----------------------------------------------------*/
+/*---------------------------------------------- Apple_Watch_AirPods-Pro3-Main_Container -----------------------------------------------------*/
 
-#icloud-games-main_container {
+#apple-watchairpods-pro3-main_container {
   display: flex;
   height: 95%;
   width: 100%;
   gap: 10px;
 }
-.icloud-games-main_container-gb1 {
+
+.apple-watchairpods-pro3-main_container-gb1 {
   background-color: #0077ed;
   color: white;
   border: 1px solid #0077ed;
@@ -183,7 +191,7 @@ body {
   font-size: 14px;
 }
 
-.icloud-games-main_container-gb2 {
+.apple-watchairpods-pro3-main_container-gb2 {
   background-color: white;
   color: #0077ed;
   border-radius: 20px;
@@ -192,10 +200,15 @@ body {
   font-size: 14px;
 }
 
+.apple-watchairpods-pro3-main_container-gb2:hover {
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
 
-/*---------------------------------------------- icloud_Container -----------------------------------------------------*/
+/*---------------------------------------------- Apple-Watch_Container -----------------------------------------------------*/
 
-#icloud_container {
+#apple-watch-container {
   height: 95%;
   width: 50%;
   background-image: url(./apple_watch_series_1.jpg);
@@ -203,15 +216,17 @@ body {
   background-position: center;
   text-align: center;
   padding-top: 40px;
+  border-radius: 10px;
 }
-#icloud_container h1{
-    font-size: 35px;
+
+#apple-watch-container h1 {
+  font-size: 35px;
   color: #000000;
   font-weight: 200px;
   padding-top: 20px;
-
 }
-#icloud_container h5 {
+
+#apple-watch-container h5 {
   color: #1d1d1f;
   font-size: 21px;
   font-weight: 200;
@@ -219,25 +234,27 @@ body {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
-/*--------------------------------------------- Games_Container -----------------------------------------------------*/
 
-#games_container {
+/*--------------------------------------------- AirPods-Pro3_Container -----------------------------------------------------*/
+
+#airpods-pro3-container {
   height: 95%;
   width: 50%;
   background-image: url(./airpodspro_3.jpg);
   background-size: cover;
   text-align: center;
-  background-position: center;
   padding-top: 40px;
+  border-radius: 10px;
 }
-#games_container h1{
-    font-size: 35px;
+
+#airpods-pro3-container h1 {
+  font-size: 35px;
   color: #000000;
   font-weight: 200px;
   padding-top: 20px;
-
 }
-#games_container h5 {
+
+#airpods-pro3-container h5 {
   color: #1d1d1f;
   font-size: 21px;
   font-weight: 200;
@@ -254,7 +271,8 @@ body {
   width: 100%;
   gap: 10px;
 }
-.macbookAir-ipadAir-main_container-gb1{
+
+.macbookAir-ipadAir-main_container-gb1 {
   background-color: #0077ed;
   color: white;
   border: 1px solid #0077ed;
@@ -272,6 +290,11 @@ body {
   font-size: 14px;
 }
 
+.macbookAir-ipadAir-main_container-gb2:hover {
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
 
 /*---------------------------------------------- MacbookAir_Container -----------------------------------------------------*/
 
@@ -283,14 +306,16 @@ body {
   background-position: center;
   text-align: center;
   padding-top: 40px;
+  border-radius: 10px;
 }
-#macbookAir_container h1{
-    font-size: 35px;
+
+#macbookAir_container h1 {
+  font-size: 35px;
   color: #000000;
   font-weight: 200px;
   padding-top: 20px;
-
 }
+
 #macbookAir_container h5 {
   color: #1d1d1f;
   font-size: 21px;
@@ -299,6 +324,7 @@ body {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
+
 /*--------------------------------------------- iPadAir_Container -----------------------------------------------------*/
 
 #ipadAir_container {
@@ -309,15 +335,129 @@ body {
   text-align: center;
   background-position: center;
   padding-top: 40px;
+  border-radius: 10px;
 }
-#ipadAir_container h1{
-    font-size: 35px;
+
+.ipad {
+  color: black;
+  /* Bold black for "iPad" */
+  font-weight: bold;
+}
+
+.air {
+  color: #1d73c0;
+  /* Light blue for "air" */
+  font-style: italic;
+}
+
+#ipadAir_container h1 {
+  font-size: 35px;
   color: #000000;
   font-weight: 200px;
   padding-top: 20px;
-
 }
+
 #ipadAir_container h5 {
+  color: #1d1d1f;
+  font-size: 21px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+/*---------------------------------------------- TradeIn-Card-Main_Container -----------------------------------------------------*/
+
+#tradeIn-Card-main_container {
+  display: flex;
+  height: 95%;
+  width: 100%;
+  gap: 10px;
+}
+
+/*---------------------------------------------- TradeIn_Container -----------------------------------------------------*/
+
+#tradeIn_container {
+  height: 95%;
+  width: 50%;
+  background-image: url(./iphone_tradein.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.tradeIn-container-b1 {
+  background-color: #0077ed;
+  color: white;
+  border: 1px solid #0077ed;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+#tradeIn_container h1 {
+  font-size: 35px;
+  color: #000000;
+  font-weight: 200px;
+  padding-top: 20px;
+}
+
+#tradeIn_container h5 {
+  color: #1d1d1f;
+  font-size: 21px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+/*--------------------------------------------- Card_Container -----------------------------------------------------*/
+
+#Card_container {
+  height: 95%;
+  width: 50%;
+  background-image: url(./promo_apple_card__5cm7draujpey_large.jpg);
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.card-container-b1 {
+  background-color: #0077ed;
+  color: white;
+  border: 1px solid #0077ed;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.card-container-b2 {
+  background-color: white;
+  color: #0077ed;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 1px solid #0077ed;
+  font-size: 14px;
+}
+
+.card-container-b2:hover {
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+
+#Card_container h1 {
+  font-size: 35px;
+  color: #000000;
+  font-weight: 200px;
+  padding-top: 20px;
+}
+
+#Card_container h5 {
   color: #1d1d1f;
   font-size: 21px;
   font-weight: 200;
@@ -328,13 +468,32 @@ body {
 
 /*---------------------------------------------------- Footer-- -----------------------------------------------------*/
 
-#foter {
-  background-color: #222020;
-  color: white;
-  padding: 10px;
+#footer {
+  background: transparent;
+  color: rgba(22, 19, 19, 0.589);
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
   width: 100%;
-  height: 30px;
-  font-size: 15px;
+  height: 40px;
+  font-size: 18px;
+  gap: 20px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: rgba(22, 19, 19, 0.589);
+  font-size: 12px;
+}
+
+#footer h6 {
+  margin-left: 200px;
+}
+
+#footer h4 {
+  text-decoration: none;
+  color: rgba(22, 19, 19, 0.589);
+  font-size: 12px;
+  margin-left: 200px;
+  font-weight: 100px;
 }
